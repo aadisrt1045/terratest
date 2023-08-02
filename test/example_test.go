@@ -9,10 +9,10 @@ package test
 import (
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/azure"
-	"github.com/gruntwork-io/terratest/modules/random"
-	"github.com/gruntwork-io/terratest/modules/terraform"
-	"github.com/stretchr/testify/assert"
+    "github.com/gruntwork-io/terratest/modules/random v0.0.0-20230731083736-6a4f87960a6d"
+    "github.com/gruntwork-io/terratest/modules/terraform v0.0.0-20230731083736-6a4f87960a6d"
+    "github.com/stretchr/testify/assert v1.7.0"
+    "github.com/gruntwork-io/terratest/modules/azure v0.0.0-20230731083736-6a4f87960a6d"
 )
 
 func TestTerraformAzureResourceGroupExample(t *testing.T) {
